@@ -1,22 +1,59 @@
-.topnav {
-    background-color:black;
+.header-nav {
+    background-color:rgb(182, 177, 177);
      overflow: hidden; 
+     text-align: center;
+     position: relative;
   }
   
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
+  .header-nav a {
+  
+    color: #030303;
     text-align: center;
-    padding: 14px 16px;
+    padding: 50px 16px;
     text-decoration: none;
     font-size: 17px;
+   
   }
 
-  .topnav a.active {
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+  }
+  .header-nav a.active {
     background-color:orange;
-    color: white;
+    color: rgb(19, 18, 18);
   }
 
-  table, th, td {
-    border:5px solid black;
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 20px; 
+    width: 800px; 
+    margin-left: auto; 
+  margin-right: auto;
+    
+   
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  footer{ text-align: center;
+      background-color: rgb(182, 177, 177);
+      padding: 1px;
+      width: 1500px;
+      
+  }
+  h2{
+    text-align: center;
   }
