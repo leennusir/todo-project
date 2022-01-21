@@ -25,6 +25,6 @@ if (ans == false){
             break;
 }
 }
-else {alert("Enter the gender correctly");
-    window.stop() ;
-}}
+
+}else {
+    alert("Enter the gender correctly");}
