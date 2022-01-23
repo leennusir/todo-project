@@ -27,4 +27,5 @@ if (ans == false){
 }
 
 }else {
-    alert("Enter the gender correctly");}
+    alert("Enter the gender correctly");
+    alert("Welcome  " + yourName);}
